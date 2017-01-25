@@ -21,16 +21,6 @@
         android:id="@+id/txtValue" />
 
     <Button
-        android:text="Add"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="29dp"
-        android:layout_marginTop="84dp"
-        android:id="@+id/btnAdd" />
-
-    <Button
         android:text="Grow"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -71,4 +61,14 @@
         android:layout_alignTop="@+id/btnHide"
         android:layout_alignStart="@+id/btnShrink"
         android:id="@+id/btnReset" />
+
+    <Button
+        android:text="Add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:id="@+id/btnAdd"
+        android:layout_above="@+id/btnGrow"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="27dp" />
 </RelativeLayout>
